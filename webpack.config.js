@@ -7,10 +7,12 @@ module.exports = {
     output: {
         path: path.join(__dirname, 'public'),
         filename: 'index.js',
+        publicPath: '/'
     },
     devServer: {
         port: 3000,
-        contentBase: 'public'
+        contentBase: 'public',
+        historyApiFallback: true,
     },
     resolve: {
         extensions: ['', '.js', '.jsx'],
@@ -33,9 +35,12 @@ module.exports = {
         }, {
             test: /\.css$/,
             loader: ExtractTextPlugin.extract('style-loader', 'css-loader')
-        }, {
-            test: /\.woff|.woff2|.ttf|.eot|.svg*.*$/,
-            loader: 'file'
         }]
     }
 }
+
+// Retirar dependência do file-loader
+// {
+//     test: /\.woff|.woff2|.ttf|.eot|.svg*.*$/,
+//     loader: 'file'
+// }

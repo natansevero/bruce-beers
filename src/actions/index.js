@@ -1,1 +1,1 @@
-export { addData, fetchData } from './data.action'
+export { getBeersByPageNumber, getOneBeerById } from './beer.action'

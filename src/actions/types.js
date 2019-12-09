@@ -1,2 +1,2 @@
-export const FETCH_DATA = 'FETCH_DATA'
-export const ADD_DATA = 'ADD_DATA'
+export const GET_BEERS = 'GET_ALL_BEERS';
+export const GET_ONE_BEER = 'GET_ONE_BEER'; 
