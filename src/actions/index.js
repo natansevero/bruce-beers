@@ -1,0 +1,1 @@
+export { addData, fetchData } from './data.action'
