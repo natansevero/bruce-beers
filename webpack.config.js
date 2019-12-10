@@ -38,9 +38,3 @@ module.exports = {
         }]
     }
 }
-
-// Retirar dependência do file-loader
-// {
-//     test: /\.woff|.woff2|.ttf|.eot|.svg*.*$/,
-//     loader: 'file'
-// }

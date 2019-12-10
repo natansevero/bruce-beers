@@ -17,4 +17,7 @@ psd
 thumb
 sketch
 
+public/*.js
+public/*.css
+
 # End of https://www.gitignore.io/api/react

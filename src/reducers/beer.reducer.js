@@ -11,7 +11,7 @@ export default (state = INITIAL_STATE, action) => {
             return { ...state, list: action.payload }
 
         case GET_ONE_BEER:
-            return { ...state, single: action.payload }
+            return { ...state, single: action.payload, list: [] }
 
         default:
             return state

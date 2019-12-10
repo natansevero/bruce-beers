@@ -1,6 +1,6 @@
 import React from 'react';
-// import { withRouter } from 'react-router-dom';
-import Button from 'react-bootstrap/Button';
+import { Row, Col, Button } from 'react-bootstrap';
+import Item from '../../components/Item';
 
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
@@ -29,15 +29,19 @@ class Beers extends React.Component {
     render() {
         return (
             <div>
-                <ul>
+                <Row>
                     {this.props.beers.map((beer, index) => (
-                        <li key={index}>
-                            <b>Name:</b> {beer.name} | <b>Tagline;</b> {beer.tagline}
-                        </li>
+                        <Col md={4} key={index}>
+                            <Item id={beer.id} name={beer.name} tagline={beer.tagline} />
+                        </Col>
                     ))}
-                </ul>
+                </Row>
 
-                <Button onClick={this.handleShowMore.bind(this)}>Show more</Button>
+                <Row>
+                    <Col align='center'>
+                        <Button onClick={this.handleShowMore.bind(this)}>Show more</Button>
+                    </Col>
+                </Row>
             </div>
         )
     }
