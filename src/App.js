@@ -7,7 +7,7 @@ import './App.css';
 
 const App = () => (
     <div>
-        <Header />
+        <Header title='Bruce Beers' />
         <Container>
             <Routes />
         </Container>

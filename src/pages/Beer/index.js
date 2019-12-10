@@ -2,7 +2,6 @@ import React from 'react';
 import { Row, Col, Button } from 'react-bootstrap';
 import Info from '../../components/Info';
 
-
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 

@@ -3,10 +3,10 @@ import Navbar from 'react-bootstrap/Navbar';
 
 import './style.css';
 
-const Header = props => (
+const Header = ({ title }) => (
     <header className='header'>
         <Navbar bg='dark' variant='dark' expand='lg'>
-            <Navbar.Brand>Bruce Beers</Navbar.Brand>
+            <Navbar.Brand>{title}</Navbar.Brand>
         </Navbar>
     </header>
 )

@@ -8,7 +8,7 @@ const INITIAL_STATE = {
 export default (state = INITIAL_STATE, action) => {
     switch(action.type) {
         case GET_BEERS:
-            return { ...state, list: action.payload }
+            return { ...state, list: action.payload, single: {} }
 
         case GET_ONE_BEER:
             return { ...state, single: action.payload, list: [] }
