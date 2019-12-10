@@ -1,5 +1,7 @@
 # Bruce Beers
 
+Tenha acesso as cervejas favoritas do Bruce Lee.
+
 ### Rodando aplicação
 
 Após clonar e acessar o repositório, basta:
