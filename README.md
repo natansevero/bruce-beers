@@ -4,7 +4,7 @@ Tenha acesso as cervejas favoritas do Bruce Lee.
 
 ### Rodando aplicação
 
-Após clonar e acessar o repositório, basta:
+Após clonar e acessar a pasta, basta rodar:
 ```
 npm i
 npm run dev
