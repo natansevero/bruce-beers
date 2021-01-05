@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/natansevero/bruce-beers#readme",
   "devDependencies": {
-    "axios": "^0.19.0",
+    "axios": "^0.21.1",
     "babel-core": "^6.22.1",
     "babel-loader": "^6.2.10",
     "babel-plugin-react-html-attrs": "^2.0.0",
